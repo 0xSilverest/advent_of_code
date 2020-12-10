@@ -1030,3 +1030,1596 @@ Caused by: java.nio.file.NoSuchFileException: /home/silverest/Coding/adventOfCod
 2020.12.10 01:56:18 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
 2020.12.10 01:56:20 INFO  time: initialize in 1.82s
 2020.12.10 01:56:21 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:17:13 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:17:15 INFO  time: initialize in 1.4s
+2020.12.10 10:17:15 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 10, 2020 10:17:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///home/silverest/Coding/adventOfCode2020/day7.scala",
+      "languageId": "scala",
+      "version": 1,
+      "text": "\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/silverest/Coding/adventOfCode2020/day7.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:804)
+	... 16 more
+
+2020.12.10 10:17:40 INFO  no build target: using presentation compiler with only scala-library
+Dec 10, 2020 10:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 32, 32, 47)
+2020.12.10 10:27:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:28:00 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:28:01 INFO  time: initialize in 1.43s
+2020.12.10 10:28:02 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:28:04 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:28:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:28:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:37:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:38:12 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:38:13 INFO  time: initialize in 1.33s
+2020.12.10 10:38:17 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:38:20 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:38:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 10:40:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.10 10:43:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:43:37 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:43:38 INFO  time: initialize in 1.31s
+2020.12.10 10:43:42 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:43:45 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:43:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:43:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:43:57 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:43:58 INFO  time: initialize in 1.32s
+2020.12.10 10:44:02 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:44:05 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:44:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:44:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:44:27 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:44:28 INFO  time: initialize in 1.38s
+2020.12.10 10:44:32 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:44:34 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:44:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:44:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:44:57 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:44:58 INFO  time: initialize in 1.29s
+2020.12.10 10:45:02 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:45:05 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:45:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 10:50:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2020.12.10 10:50:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:50:59 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:51:01 INFO  time: initialize in 1.4s
+2020.12.10 10:51:01 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:51:04 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:51:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:51:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:51:16 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 10:51:17 INFO  time: initialize in 1.43s
+2020.12.10 10:51:22 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 10:51:24 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 10:51:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:51:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:52:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:52:30 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:54:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:55:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:57:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:58:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:59:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 10:59:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:00:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:01:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 11:20:42 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:43 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:44 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:44 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:50 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:51 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:20:51 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[<error>,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 41, 41, 61)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 41, 41, 61)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 53, 53, 68)
+Dec 10, 2020 11:46:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (String, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 104, 104, 121)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 113, 113, 127)
+2020.12.10 11:49:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:51:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:52:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:53:43 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 11:53:44 INFO  time: initialize in 1.59s
+2020.12.10 11:53:48 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 11:53:51 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 11:53:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:54:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:55:05 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 11:55:06 INFO  time: initialize in 1.66s
+2020.12.10 11:55:10 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 11:55:14 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 11:55:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 11:55:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.12.10 11:55:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 11:55:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2020.12.10 11:55:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:56:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 11:56:43 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 426, count -1, length 545
+2020.12.10 11:57:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 11:57:11 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 11:58:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:36 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:40 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:40 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:40 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:41 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 10, 2020 11:58:41 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 219, 219, 233)
+Dec 10, 2020 11:58:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 10, 2020 12:04:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 10, 2020 12:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 10, 2020 12:05:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 10, 2020 12:05:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 10, 2020 12:05:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 10, 2020 12:05:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Symbols$Symbol.paramss()" because the return value of "scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.methodSym()" is null
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+2020.12.10 12:05:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:05:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:06:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:06:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:07:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:09:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 12:12:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 196, 196, 216)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 208, 208, 222)
+2020.12.10 12:19:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:20:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:20:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:20:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:22:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:23:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:23:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[String]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 230, 230, 241)
+2020.12.10 12:25:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:25:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:25:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[String]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 54, 54, 65)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 246, 246, 259)
+Dec 10, 2020 12:34:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.10 12:51:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:51:55 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[String]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 54, 54, 65)
+2020.12.10 12:58:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:59:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:59:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 12:59:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:00:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:01:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:12:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:14:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:16:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:17:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:18:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:19:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:20:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:20:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:21:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:23:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:23:55 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:24:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:25:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 13:25:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 557, 557, 577)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 569, 569, 583)
+2020.12.10 13:27:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 704, 704, 724)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 716, 716, 730)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 561, 561, 581)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 573, 573, 586)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 573, 573, 588)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 577, 577, 591)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (Int, String)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 579, 579, 592)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (String, String)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 579, 579, 595)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (Int, Int)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 579, 579, 589)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 656, 656, 676)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 668, 668, 681)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 656, 656, 688)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 656, 656, 680)
+2020.12.10 14:28:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:29:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 2:30:00 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1088, count -1, length 1434
+2020.12.10 14:30:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:31:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:32:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 2:32:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 1120, count -2, length 1437
+java.lang.StringIndexOutOfBoundsException: offset 1120, count -2, length 1437
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3719)
+	at java.base/java.lang.String.rangeCheck(String.java:298)
+	at java.base/java.lang.String.<init>(String.java:294)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.12.10 14:32:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:32:47 WARN  resetting database: /home/silverest/Coding/adventOfCode2020/.metals/metals.h2.db
+2020.12.10 14:33:01 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 14:33:02 INFO  time: initialize in 1.55s
+2020.12.10 14:33:07 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 14:33:10 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 14:33:10 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:33:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 2:36:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.10 14:38:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:38:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:39:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:39:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:40:20 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 14:40:22 INFO  time: initialize in 1.45s
+2020.12.10 14:40:26 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 14:40:29 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 14:40:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:41:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:42:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 2:42:31 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1061, count -1, length 1367
+2020.12.10 14:42:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 14:42:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:13:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:14:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:14:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 3:15:03 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1114, count -1, length 1465
+2020.12.10 15:15:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:15:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:16:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:17:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:17:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:35:48 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 15:35:49 INFO  time: initialize in 1.55s
+2020.12.10 15:35:53 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 15:35:57 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 15:35:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:39:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:40:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 15:44:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 731, 731, 745)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 731, 731, 747)
+Dec 10, 2020 3:48:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (String, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 736, 736, 753)
+Dec 10, 2020 3:48:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 10, 2020 3:48:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.10 16:23:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:24:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:25:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:25:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:25:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:33:58 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 16:33:59 INFO  time: initialize in 1.15s
+2020.12.10 16:34:00 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 16:34:02 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 16:34:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:36:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:36:50 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:37:11 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:37:38 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 16:37:39 INFO  time: initialize in 1.15s
+2020.12.10 16:37:43 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 16:37:45 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 16:37:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:38:56 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 4:39:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2020.12.10 16:39:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:40:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:44:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:48:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:49:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:49:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:50:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:51:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:52:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:54:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:55:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:55:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:55:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:57:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:57:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:57:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:57:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 16:58:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 4:58:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+2020.12.10 16:58:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:03:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:03:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:03:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:10:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:11:54 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 17:11:56 INFO  time: initialize in 1.75s
+2020.12.10 17:12:00 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 17:12:03 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 17:12:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 83, 83, 97)
+Dec 10, 2020 5:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.10 17:21:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:21:36 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 17:21:37 INFO  time: initialize in 1.16s
+2020.12.10 17:21:41 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 17:21:43 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 17:21:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/Day7.scala
+2020.12.10 17:24:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/Day7.scala
+2020.12.10 17:24:55 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 17:24:56 INFO  time: initialize in 1.26s
+2020.12.10 17:25:00 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 17:25:02 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 17:25:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 5:29:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1296, count -1, length 2021
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 973, 973, 990)
+Dec 10, 2020 5:29:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (String, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 979, 979, 996)
+Dec 10, 2020 5:29:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 979, 979, 993)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Map[String,<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 1153, 1153, 1173)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 1165, 1165, 1180)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 1165, 1165, 1182)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 1171, 1171, 1185)
+Dec 10, 2020 5:33:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.10 17:34:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 17:35:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+Dec 10, 2020 6:18:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 10, 2020 6:18:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 10, 2020 6:19:41 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1675, count -1, length 1748
+Dec 10, 2020 6:19:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1680, count -1, length 1752
+Dec 10, 2020 6:40:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.10 18:40:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:41:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:42:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:43:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:44:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:46:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:47:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:51:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:52:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 18:59:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:03:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:05:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:06:10 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:06:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:08:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:08:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:09:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:11:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:11:48 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:17:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:17:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:17:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:21:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:22:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 264, 264, 277)
+2020.12.10 19:25:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:25:56 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:27:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:27:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:28:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:29:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:29:10 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:30:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:31:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:31:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 308, 308, 322)
+2020.12.10 19:34:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:34:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day7.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day7.scala, 308, 308, 321)
+2020.12.10 19:38:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:43:11 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:43:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:43:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:43:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:44:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:46:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:47:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:47:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:47:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:47:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:48:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:49:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:50:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:50:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:51:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 19:51:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 20:00:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
