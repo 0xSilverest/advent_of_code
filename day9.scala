@@ -27,7 +27,7 @@ object Day9 {
 
   def main (args: Array[String]): Unit = {
     val inp = scala.io.Source.fromFile("input/day9.txt").getLines().map(_.trim.toLong).toArray
-    println(part1 (inp))
-    print(part2(inp))
+    println(part1(inp))
+    println(part2(inp))
   }
 }

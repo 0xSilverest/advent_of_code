@@ -3171,3 +3171,10 @@ WARNING: offset 668, count -1, length 1086
 2020.12.11 16:00:24 INFO  no build target: using presentation compiler with only scala-library
 2020.12.11 16:00:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
 2020.12.11 16:00:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 16:01:18 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 16:01:19 INFO  time: initialize in 1.55s
+2020.12.11 16:01:23 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 16:01:26 INFO  no build target: using presentation compiler with only scala-library
+2020.12.11 16:01:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 16:01:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 16:01:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
