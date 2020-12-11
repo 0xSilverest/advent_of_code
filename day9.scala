@@ -21,7 +21,7 @@ object Day9 {
 
   def part2 (inp: Array[Long]) = {
     val target = part1(inp)
-    val ret = sumEveryCombo( inp.toList.takeWhile(_ < target), target).get
+    val ret = sumEveryCombo( inp.toList.takeWhile(_ != target), target).get
     ret.min + ret.max
   }
 
