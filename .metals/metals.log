@@ -2721,3 +2721,447 @@ Caused by: java.lang.InterruptedException
 	... 8 more
 
 something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 33, 33, 48)
+Dec 10, 2020 9:56:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+2020.12.10 22:04:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:04:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:05:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:07:10 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.10 22:07:12 INFO  time: initialize in 1.52s
+2020.12.10 22:07:12 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.10 22:07:15 INFO  no build target: using presentation compiler with only scala-library
+2020.12.10 22:07:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day7.scala
+2020.12.10 22:08:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:09:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:10:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:11:28 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:11:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:19:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:20:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 10, 2020 10:20:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+2020.12.10 22:21:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 10, 2020 10:21:47 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 207, count -1, length 293
+2020.12.10 22:22:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:22:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:22:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:23:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:23:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.10 22:59:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 10, 2020 11:16:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.10 23:16:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 140, 140, 154)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 384, 384, 398)
+Dec 11, 2020 12:46:07 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 414, 414, 427)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 414, 414, 429)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 418, 418, 432)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 446, 446, 460)
+2020.12.11 01:19:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:20:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:20:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:21:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 163, 163, 176)
+2020.12.11 01:25:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:30:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:58:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 01:58:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:01:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:02:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:04:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:06:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:06:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:08:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:20:54 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 02:20:55 INFO  time: initialize in 1.59s
+2020.12.11 02:20:56 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 02:20:59 INFO  no build target: using presentation compiler with only scala-library
+2020.12.11 02:20:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:22:49 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 02:22:50 INFO  time: initialize in 1.22s
+2020.12.11 02:22:54 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 02:22:57 INFO  no build target: using presentation compiler with only scala-library
+2020.12.11 02:22:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 02:24:17 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 11:18:26 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 11:18:27 INFO  time: initialize in 1.2s
+2020.12.11 11:18:31 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 11:18:34 INFO  no build target: using presentation compiler with only scala-library
+2020.12.11 11:18:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 11, 2020 11:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 193, 193, 208)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 170, 170, 185)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 228, 228, 241)
+2020.12.11 11:38:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 11:38:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 11:39:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 721, 721, 736)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 649, 649, 664)
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in Set[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 724, 724, 737)
+Dec 11, 2020 12:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 602
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day8.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day8.scala, 164, 164, 1361)
+2020.12.11 12:17:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:19:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:19:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:20:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 11, 2020 12:20:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 907
+2020.12.11 12:20:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:21:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:21:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:22:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:22:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:23:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:25:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:25:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:26:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:27:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:27:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:28:10 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:28:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:30:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:32:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 11, 2020 12:32:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.11 12:32:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:33:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+Dec 11, 2020 12:34:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Phase.id()" because "phase" is null
+java.util.concurrent.CompletionException: java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Phase.id()" because "phase" is null
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Phase.id()" because "phase" is null
+	at scala.tools.nsc.Global.isPast(Global.scala:1020)
+	at scala.tools.nsc.Global.isPastTyper(Global.scala:1016)
+	at scala.reflect.internal.Symbols$MethodSymbol.typeAsMemberOf(Symbols.scala:3019)
+	at scala.reflect.internal.Types$Type.memberType(Types.scala:730)
+	at scala.meta.internal.pc.completions.Completions.detailString(Completions.scala:262)
+	at scala.meta.internal.pc.completions.Completions.detailString$(Completions.scala:256)
+	at scala.meta.internal.pc.MetalsGlobal.detailString(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:83)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.11 12:36:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:37:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:42:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:46:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:47:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:47:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 12:48:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day8.scala
+2020.12.11 13:01:30 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 13:01:31 INFO  time: initialize in 1.28s
+2020.12.11 13:01:35 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 11, 2020 1:01:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///home/silverest/Coding/adventOfCode2020/day9.scala",
+      "languageId": "scala",
+      "version": 16,
+      "text": "obkec\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/silverest/Coding/adventOfCode2020/day9.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:804)
+	... 16 more
+
+2020.12.11 13:01:38 INFO  no build target: using presentation compiler with only scala-library
+Dec 11, 2020 1:01:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 33, 33, 48)
+Dec 11, 2020 1:01:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2020.12.11 13:03:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:03:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:04:57 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 13:04:58 INFO  time: initialize in 1.21s
+2020.12.11 13:05:02 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 13:05:05 INFO  no build target: using presentation compiler with only scala-library
+2020.12.11 13:05:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+Dec 11, 2020 1:10:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 39, 39, 53)
+2020.12.11 13:30:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:30:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:31:11 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:31:46 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 13:31:47 INFO  time: initialize in 1.24s
+2020.12.11 13:31:47 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.11 13:32:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:33:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:33:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:34:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:35:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:36:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:37:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:37:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:37:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:38:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:39:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:40:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:41:28 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:46:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:47:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:48:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:48:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:56:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:57:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:57:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 13:57:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:02:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 524, 524, 539)
+2020.12.11 14:10:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:10:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:11:30 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 590, 590, 605)
+2020.12.11 14:23:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:24:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:24:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:35:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 540, 540, 554)
+2020.12.11 14:47:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:47:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:48:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:49:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:49:56 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:50:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 14:50:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 540, 540, 554)
+2020.12.11 15:17:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+Dec 11, 2020 3:31:31 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 612, count -1, length 1097
+2020.12.11 15:34:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:35:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:36:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:37:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:39:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:41:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day9.scala in Set[Long]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day9.scala, 548, 548, 557)
+Dec 11, 2020 3:47:22 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 668, count -1, length 1086
+2020.12.11 15:47:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:47:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:47:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:48:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:48:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:50:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:51:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:52:48 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:53:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:53:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:53:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:54:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:55:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:55:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:57:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day9.scala
+2020.12.11 15:57:34 WARN  resetting database: /home/silverest/Coding/adventOfCode2020/.metals/metals.h2.db
+2020.12.11 15:57:53 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.11 15:57:54 INFO  time: initialize in 1.52s
