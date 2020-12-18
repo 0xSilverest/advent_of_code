@@ -8020,3 +8020,688 @@ WARNING: offset 2826, count -11, length 3101
 2020.12.14 23:34:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day14.scala
 2020.12.14 23:34:19 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day14.scala
 2020.12.14 23:42:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day14.scala
+2020.12.15 21:45:19 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.15 21:45:20 INFO  time: initialize in 1.45s
+2020.12.15 21:45:21 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.15 21:45:24 INFO  no build target: using presentation compiler with only scala-library
+2020.12.15 21:45:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day10.scala
+2020.12.15 21:49:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day10.scala
+2020.12.18 11:15:39 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:15:40 INFO  time: initialize in 1.29s
+2020.12.18 11:15:44 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:15:47 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:15:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+Dec 18, 2020 11:17:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Dec 18, 2020 11:17:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Dec 18, 2020 11:17:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Dec 18, 2020 11:17:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Dec 18, 2020 11:17:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Dec 18, 2020 11:17:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Dec 18, 2020 11:17:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Dec 18, 2020 11:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Dec 18, 2020 11:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Dec 18, 2020 11:18:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Dec 18, 2020 11:18:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Dec 18, 2020 11:18:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Dec 18, 2020 11:18:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Dec 18, 2020 11:18:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Dec 18, 2020 11:18:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Dec 18, 2020 11:19:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Dec 18, 2020 11:19:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Dec 18, 2020 11:19:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+Dec 18, 2020 11:19:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Dec 18, 2020 11:19:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Dec 18, 2020 11:19:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Dec 18, 2020 11:19:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+Dec 18, 2020 11:19:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+Dec 18, 2020 11:19:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+Dec 18, 2020 11:19:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 56
+Dec 18, 2020 11:19:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Dec 18, 2020 11:19:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+Dec 18, 2020 11:19:45 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 125, count -1, length 1214
+Dec 18, 2020 11:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+Dec 18, 2020 11:23:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+Dec 18, 2020 11:23:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+Dec 18, 2020 11:24:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 99
+Dec 18, 2020 11:24:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+Dec 18, 2020 11:25:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+Dec 18, 2020 11:25:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Dec 18, 2020 11:25:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+Dec 18, 2020 11:25:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 158
+Dec 18, 2020 11:25:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 162
+Dec 18, 2020 11:25:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day11.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day11.scala, 356, 356, 370)
+Dec 18, 2020 11:25:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+Dec 18, 2020 11:25:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+Dec 18, 2020 11:25:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day11.scala in (Int, <error>)RangePosition(file:///home/silverest/Coding/adventOfCode2020/day11.scala, 374, 374, 388)
+Dec 18, 2020 11:25:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Dec 18, 2020 11:25:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 196
+Dec 18, 2020 11:25:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+Dec 18, 2020 11:25:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+Dec 18, 2020 11:27:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 212
+Dec 18, 2020 11:27:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+Dec 18, 2020 11:27:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 251
+Dec 18, 2020 11:28:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 253
+Dec 18, 2020 11:28:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+Dec 18, 2020 11:28:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 263
+Dec 18, 2020 11:28:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 265
+Dec 18, 2020 11:28:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 266
+Dec 18, 2020 11:28:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 268
+Dec 18, 2020 11:29:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+Dec 18, 2020 11:29:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+Dec 18, 2020 11:29:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+Dec 18, 2020 11:30:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+Dec 18, 2020 11:30:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 328
+Dec 18, 2020 11:30:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+Dec 18, 2020 11:30:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 336
+Dec 18, 2020 11:30:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+Dec 18, 2020 11:30:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 354
+Dec 18, 2020 11:31:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 358
+2020.12.18 11:32:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:32:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:33:03 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:33:04 INFO  time: initialize in 1.41s
+2020.12.18 11:33:08 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:33:11 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:33:11 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:33:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:34:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:35:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:35:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:36:14 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:36:16 INFO  time: initialize in 1.39s
+2020.12.18 11:36:20 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:36:58 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:36:59 INFO  time: initialize in 1.41s
+2020.12.18 11:37:00 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:37:03 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:37:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:37:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:37:43 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:37:44 INFO  time: initialize in 1.46s
+2020.12.18 11:39:15 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:39:16 INFO  time: initialize in 1.33s
+2020.12.18 11:39:19 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:39:21 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:39:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+Dec 18, 2020 11:40:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Dec 18, 2020 11:40:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 18, 2020 11:40:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Dec 18, 2020 11:41:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Dec 18, 2020 11:42:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Dec 18, 2020 11:45:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+Dec 18, 2020 11:45:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+Dec 18, 2020 11:45:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+Dec 18, 2020 11:45:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+2020.12.18 11:45:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:45:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:46:10 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:46:11 INFO  time: initialize in 1.42s
+2020.12.18 11:46:15 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:46:18 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:46:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:46:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:46:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:47:01 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:47:02 INFO  time: initialize in 1.46s
+2020.12.18 11:47:06 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:47:09 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:47:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:47:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:47:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:47:52 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:47:54 INFO  time: initialize in 1.3s
+2020.12.18 11:47:58 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:48:00 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:48:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:48:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:48:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:48:14 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:48:15 INFO  time: initialize in 1.44s
+2020.12.18 11:48:20 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:48:22 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:48:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:48:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:48:40 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:48:42 INFO  time: initialize in 1.38s
+2020.12.18 11:48:45 WARN  resetting database: /home/silverest/Coding/adventOfCode2020/.metals/metals.h2.db
+2020.12.18 11:48:57 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:48:59 INFO  time: initialize in 1.4s
+2020.12.18 11:49:03 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:49:05 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:49:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:50:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@36a1607e rejected from java.util.concurrent.ThreadPoolExecutor@1c223f7c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 53]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2057)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:827)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1357)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020.12.18 11:51:13 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:51:15 INFO  time: initialize in 1.35s
+2020.12.18 11:51:15 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:51:18 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:51:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:51:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:51:56 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:51:57 INFO  time: initialize in 1.34s
+2020.12.18 11:52:01 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:52:03 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:52:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:52:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:53:01 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:53:03 INFO  time: initialize in 1.41s
+2020.12.18 11:53:07 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:53:09 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:53:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:53:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:53:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:54:20 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:54:21 INFO  time: initialize in 1.25s
+2020.12.18 11:54:25 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:54:27 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:54:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:55:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 11:56:53 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 11:56:55 INFO  time: initialize in 1.56s
+2020.12.18 11:56:59 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:57:01 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 11:57:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:00:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:00:37 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:00:38 INFO  time: initialize in 1.15s
+2020.12.18 12:00:39 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:00:41 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:00:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:01:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:01:17 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:01:19 INFO  time: initialize in 1.23s
+2020.12.18 12:01:23 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:01:25 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:01:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:01:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:02:22 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:02:23 INFO  time: initialize in 1.19s
+2020.12.18 12:02:27 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:02:29 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:02:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:02:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@19472fb9 rejected from java.util.concurrent.ThreadPoolExecutor@7f82cc84[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 42]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2057)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:827)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1357)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020.12.18 12:02:59 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:03:00 INFO  time: initialize in 1.15s
+2020.12.18 12:03:01 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:03:03 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:03:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:03:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:03:26 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:03:28 INFO  time: initialize in 1.24s
+2020.12.18 12:03:32 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:03:34 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:03:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day11.scala in Option[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day11.scala, 1018, 1018, 1034)
+Dec 18, 2020 12:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2020.12.18 12:04:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:05:12 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:05:13 INFO  time: initialize in 1.27s
+2020.12.18 12:05:17 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:05:20 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:05:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:05:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:05:51 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:05:52 INFO  time: initialize in 1.25s
+2020.12.18 12:05:52 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:05:55 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:05:55 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:06:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:06:31 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:06:32 INFO  time: initialize in 1.26s
+2020.12.18 12:06:40 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:06:41 INFO  time: initialize in 1.32s
+2020.12.18 12:06:44 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:07:02 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:07:03 INFO  time: initialize in 1.33s
+2020.12.18 12:07:04 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:07:06 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:07:06 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:07:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:07:36 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:07:37 INFO  time: initialize in 1.26s
+2020.12.18 12:07:41 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:07:43 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:07:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:08:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:08:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:08:14 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:08:15 INFO  time: initialize in 1.24s
+2020.12.18 12:11:51 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:11:52 INFO  time: initialize in 1.17s
+2020.12.18 12:11:54 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:11:57 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:11:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:12:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:12:44 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:12:45 INFO  time: initialize in 1.26s
+2020.12.18 12:12:49 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:12:52 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:12:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:13:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:13:24 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:13:25 INFO  time: initialize in 1.35s
+2020.12.18 12:13:29 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:13:31 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:13:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:13:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:13:44 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:13:45 INFO  time: initialize in 1.26s
+2020.12.18 12:13:49 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:13:52 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:13:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:14:53 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:15:08 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:15:09 INFO  time: initialize in 1.28s
+2020.12.18 12:15:13 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:15:15 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:15:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:15:27 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:15:28 INFO  time: initialize in 1.21s
+2020.12.18 12:15:45 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:15:46 INFO  time: initialize in 1.29s
+2020.12.18 12:15:49 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:15:51 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:15:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:16:36 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:16:48 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:16:49 INFO  time: initialize in 1.36s
+2020.12.18 12:16:53 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:16:56 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:16:56 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:17:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:17:50 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:17:51 INFO  time: initialize in 1.18s
+2020.12.18 12:17:52 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:17:54 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:17:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:18:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:19:41 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:19:42 INFO  time: initialize in 1.28s
+2020.12.18 12:19:47 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:19:49 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:19:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+Dec 18, 2020 12:20:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.12.18 12:20:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:20:18 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:20:19 INFO  time: initialize in 1.25s
+2020.12.18 12:20:20 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:20:22 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:20:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:20:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:24:18 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:24:20 INFO  time: initialize in 1.5s
+2020.12.18 12:24:24 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Dec 18, 2020 12:24:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///home/silverest/Coding/adventOfCode2020/day16.scala",
+      "languageId": "scala",
+      "version": 15,
+      "text": "object day16\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /home/silverest/Coding/adventOfCode2020/day16.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLanguageServer.didOpen(MetalsLanguageServer.scala:804)
+	... 16 more
+
+2020.12.18 12:24:35 INFO  no build target: using presentation compiler with only scala-library
+Dec 18, 2020 12:25:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Dec 18, 2020 12:26:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Dec 18, 2020 12:26:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day16.scala in Array[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day16.scala, 33, 33, 48)
+Dec 18, 2020 12:26:25 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 18, 2020 12:26:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 18, 2020 12:26:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 18, 2020 12:26:26 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+Dec 18, 2020 12:29:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+Dec 18, 2020 12:29:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+2020.12.18 12:29:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day16.scala
+2020.12.18 12:29:18 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:29:19 INFO  time: initialize in 1.75s
+2020.12.18 12:29:20 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:29:24 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:29:24 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+Dec 18, 2020 12:33:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Dec 18, 2020 12:33:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2020.12.18 12:33:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:34:03 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:34:05 INFO  time: initialize in 1.76s
+2020.12.18 12:34:09 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:34:13 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:34:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:34:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:34:58 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:35:00 INFO  time: initialize in 1.91s
+2020.12.18 12:35:00 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:35:04 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:35:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+Dec 18, 2020 12:35:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Dec 18, 2020 12:36:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Dec 18, 2020 12:36:42 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1505, count -1, length 1838
+Dec 18, 2020 12:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Dec 18, 2020 12:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2020.12.18 12:37:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:37:49 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:37:51 INFO  time: initialize in 1.78s
+2020.12.18 12:38:07 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:38:08 INFO  time: initialize in 1.71s
+2020.12.18 12:38:11 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:38:25 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:38:27 INFO  time: initialize in 1.73s
+2020.12.18 12:38:28 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:38:31 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:38:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:38:43 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:38:45 INFO  time: initialize in 1.69s
+2020.12.18 12:38:49 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:39:48 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:39:50 INFO  time: initialize in 1.8s
+2020.12.18 12:39:51 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:39:54 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:39:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day11.scala in IndexedSeq[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day11.scala, 229, 229, 267)
+2020.12.18 12:40:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:43:19 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.18 12:43:20 INFO  time: initialize in 1.28s
+2020.12.18 12:43:24 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 12:43:27 INFO  no build target: using presentation compiler with only scala-library
+2020.12.18 12:43:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+2020.12.18 12:43:50 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day11.scala
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@7605850f rejected from java.util.concurrent.ThreadPoolExecutor@3d2720d6[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 47]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2057)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:827)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1357)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
