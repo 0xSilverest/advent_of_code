@@ -1,0 +1,4 @@
+#ignores incomplete files and haskell's compiled files
+*.o
+*.hi
+day17.scala
