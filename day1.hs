@@ -8,7 +8,7 @@ findSum2 :: [Int] -> [Int]
 findSum2 xs = nub [x * y * z | x <- xs, y <- xs, z <- xs, x + y + z == 2020]
 
 wordsSep :: String -> [String]
-wordsSep ws = words ws
+wordsSep = words
 
 readThat :: IO [String]
 readThat = do file <- openFile "input/day1.txt" ReadMode
@@ -18,5 +18,5 @@ readThat = do file <- openFile "input/day1.txt" ReadMode
 main :: IO ()
 main = do 
     input <- readThat
-    let nums = map read (input) :: [Int]
+    let nums = map read input :: [Int]
     putStr $ (show . findSum2) nums

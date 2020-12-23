@@ -4,10 +4,6 @@ object Day17 {
   trait Point {
     def neighbors: List[Point]
   }
-  
-  def llRange(lo: Int, hi: Int): LazyList[Int] =
-    if (lo >= hi) LazyList.empty
-    else LazyList.cons(lo, llRange(lo + 1, hi))
 
   case class Point3d (x: Int, y: Int, z: Int) extends Point {
     def neighbors: List[Point3d] = 

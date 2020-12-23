@@ -44,7 +44,7 @@ object Day21 {
     val ingredients = input.map (_._2).reduce(_ ++ _)
     val allergens = buildMap(input) 
     val assignedAllergens = assign(allergens)
-    
+        
     println(part1(assignedAllergens, ingredients)) 
     println(part2(assignedAllergens))
   }
