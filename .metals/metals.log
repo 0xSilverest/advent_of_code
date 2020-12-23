@@ -12003,3 +12003,639 @@ WARNING: Unmatched cancel notification for request id 594
 2020.12.22 13:50:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day21.scala
 2020.12.22 13:56:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day21.scala
 2020.12.22 13:56:30 WARN  resetting database: /home/silverest/Coding/adventOfCode2020/.metals/metals.h2.db
+2020.12.23 09:16:35 INFO  started: Metals version 0.9.4 in workspace '/home/silverest/Coding/adventOfCode2020' .
+2020.12.23 09:16:36 INFO  time: initialize in 1.24s
+2020.12.23 09:16:39 WARN  no build tool detected in workspace '/home/silverest/Coding/adventOfCode2020'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.23 09:16:41 INFO  no build target: using presentation compiler with only scala-library
+2020.12.23 09:16:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 9:17:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day17.scala in List[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day17.scala, 156, 156, 170)
+Dec 23, 2020 9:19:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+Dec 23, 2020 9:19:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+Dec 23, 2020 9:19:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+Dec 23, 2020 9:19:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 112
+Dec 23, 2020 9:19:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 115
+Dec 23, 2020 9:22:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+Dec 23, 2020 9:23:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+Dec 23, 2020 9:23:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 148
+Dec 23, 2020 9:24:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+Dec 23, 2020 9:24:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+Dec 23, 2020 9:25:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Dec 23, 2020 9:31:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 203
+Dec 23, 2020 9:31:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 205
+2020.12.23 09:31:56 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 10:34:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 236
+Dec 23, 2020 10:35:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 246
+Dec 23, 2020 10:35:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+Dec 23, 2020 10:35:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 265
+Dec 23, 2020 10:35:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 268
+Dec 23, 2020 10:36:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 273
+Dec 23, 2020 10:36:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 299
+Dec 23, 2020 10:37:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+Dec 23, 2020 10:37:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 326
+Dec 23, 2020 10:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 343
+Dec 23, 2020 10:38:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+Dec 23, 2020 10:39:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+Dec 23, 2020 10:39:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 375
+Dec 23, 2020 10:39:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 388
+Dec 23, 2020 10:40:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 398
+Dec 23, 2020 10:40:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 410
+Dec 23, 2020 10:41:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 415
+Dec 23, 2020 10:41:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 423
+Dec 23, 2020 10:42:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 437
+Dec 23, 2020 10:42:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 452
+Dec 23, 2020 10:42:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 454
+Dec 23, 2020 10:42:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 455
+Dec 23, 2020 10:42:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 457
+Dec 23, 2020 10:42:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+Dec 23, 2020 10:43:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+Dec 23, 2020 10:43:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+Dec 23, 2020 10:45:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 519
+Dec 23, 2020 10:45:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 522
+Dec 23, 2020 10:46:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 536
+Dec 23, 2020 10:46:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 549
+Dec 23, 2020 10:46:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 551
+Dec 23, 2020 10:47:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 553
+Dec 23, 2020 10:47:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 560
+Dec 23, 2020 10:47:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 564
+Dec 23, 2020 10:47:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 568
+Dec 23, 2020 10:47:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+Dec 23, 2020 10:48:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 572
+Dec 23, 2020 10:48:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+Dec 23, 2020 10:48:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 578
+Dec 23, 2020 10:48:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 580
+Dec 23, 2020 10:48:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 586
+Dec 23, 2020 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 589
+Dec 23, 2020 10:48:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 592
+2020.12.23 10:48:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:48:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:49:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:50:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 10:50:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 615
+2020.12.23 10:50:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 10:52:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 622
+Dec 23, 2020 10:52:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+2020.12.23 10:52:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 10:53:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+2020.12.23 10:53:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:54:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:54:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 10:55:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 679
+Dec 23, 2020 10:55:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 681
+Dec 23, 2020 10:56:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 686
+2020.12.23 10:57:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:58:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:59:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 10:59:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:00:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 744
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day17.scala in Seq[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day17.scala, 1573, 1573, 1586)
+Dec 23, 2020 11:00:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 754
+Dec 23, 2020 11:00:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 751
+Dec 23, 2020 11:00:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 763
+Dec 23, 2020 11:01:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 768
+Dec 23, 2020 11:01:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 771
+Dec 23, 2020 11:01:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 776
+Dec 23, 2020 11:07:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 798
+Dec 23, 2020 11:09:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 802
+Dec 23, 2020 11:10:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 822
+Dec 23, 2020 11:10:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 844
+Dec 23, 2020 11:11:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 869
+Dec 23, 2020 11:11:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2137)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:461)
+	at scala.collection.Iterator.toStream(Iterator.scala:1417)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1416)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1431)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1417)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1173)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1163)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:125)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:243)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Dec 23, 2020 11:11:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+Dec 23, 2020 11:11:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 885
+Dec 23, 2020 11:11:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 886
+Dec 23, 2020 11:12:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 890
+Dec 23, 2020 11:12:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 908
+Dec 23, 2020 11:12:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 911
+Dec 23, 2020 11:12:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 919
+Dec 23, 2020 11:12:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 920
+Dec 23, 2020 11:13:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 934
+Dec 23, 2020 11:13:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 939
+Dec 23, 2020 11:13:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 941
+2020.12.23 11:13:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:13:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 949
+Dec 23, 2020 11:13:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 953
+2020.12.23 11:13:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:14:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 961
+2020.12.23 11:14:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:14:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 977
+2020.12.23 11:14:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:17:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:18:42 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:19:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 997
+Dec 23, 2020 11:19:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1001
+Dec 23, 2020 11:19:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1012
+Dec 23, 2020 11:19:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1016
+2020.12.23 11:19:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:20:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:20:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:20:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:21:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1043
+Dec 23, 2020 11:22:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1051
+Dec 23, 2020 11:22:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1071
+Dec 23, 2020 11:22:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1075
+2020.12.23 11:22:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:22:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:25:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1096
+Dec 23, 2020 11:26:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1102
+Dec 23, 2020 11:26:32 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2125, count -1, length 2139
+Dec 23, 2020 11:26:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1124
+2020.12.23 11:26:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:27:40 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:27:58 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:28:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:29:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:29:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1150
+Dec 23, 2020 11:29:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1151
+Dec 23, 2020 11:29:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+Dec 23, 2020 11:29:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1161
+2020.12.23 11:29:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:30:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1192
+Dec 23, 2020 11:31:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1215
+Dec 23, 2020 11:31:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1238
+Dec 23, 2020 11:32:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1245
+Dec 23, 2020 11:32:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1274
+Dec 23, 2020 11:32:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1279
+Dec 23, 2020 11:34:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1277
+Dec 23, 2020 11:34:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1309
+2020.12.23 11:34:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:35:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:36:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:36:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:37:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1364
+Dec 23, 2020 11:38:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1367
+Dec 23, 2020 11:38:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1373
+Dec 23, 2020 11:38:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1385
+Dec 23, 2020 11:38:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1396
+Dec 23, 2020 11:38:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1399
+2020.12.23 11:38:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:39:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:39:17 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 11:40:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1421
+Dec 23, 2020 11:40:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1424
+2020.12.23 11:40:23 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:40:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:41:12 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:41:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:42:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 11:43:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:13:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1476
+something's wrong: no file:///home/silverest/Coding/adventOfCode2020/day17.scala in Seq[<error>]RangePosition(file:///home/silverest/Coding/adventOfCode2020/day17.scala, 2240, 2240, 2253)
+Dec 23, 2020 12:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1482
+Dec 23, 2020 12:13:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1493
+Dec 23, 2020 12:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1495
+Dec 23, 2020 12:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1496
+Dec 23, 2020 12:13:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1497
+Dec 23, 2020 12:14:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1499
+Dec 23, 2020 12:14:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1504
+Dec 23, 2020 12:14:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1507
+Dec 23, 2020 12:14:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1510
+Dec 23, 2020 12:14:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1512
+Dec 23, 2020 12:14:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1513
+Dec 23, 2020 12:14:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1515
+Dec 23, 2020 12:14:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1523
+Dec 23, 2020 12:14:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1527
+Dec 23, 2020 12:14:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1528
+Dec 23, 2020 12:14:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1529
+Dec 23, 2020 12:14:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1531
+Dec 23, 2020 12:14:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1533
+Dec 23, 2020 12:14:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+Dec 23, 2020 12:14:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1543
+Dec 23, 2020 12:14:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1547
+Dec 23, 2020 12:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1549
+Dec 23, 2020 12:14:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1552
+2020.12.23 12:15:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:15:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1564
+Dec 23, 2020 12:15:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1569
+2020.12.23 12:15:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:17:28 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:17:32 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:17:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:18:37 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:18:55 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1597
+2020.12.23 12:23:13 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:24:50 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:25:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:25:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:26:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1640
+Dec 23, 2020 12:27:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1646
+2020.12.23 12:27:03 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:31:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1663
+2020.12.23 12:31:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:32:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1668
+2020.12.23 12:32:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:47:22 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:47:35 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:48:01 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:48:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:48:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:49:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 12:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1697
+Dec 23, 2020 12:55:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1701
+Dec 23, 2020 12:55:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1702
+Dec 23, 2020 12:55:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1704
+Dec 23, 2020 12:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1706
+Dec 23, 2020 12:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1714
+Dec 23, 2020 12:56:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1717
+Dec 23, 2020 12:56:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1720
+Dec 23, 2020 12:56:09 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2618, count -1, length 2633
+Dec 23, 2020 12:56:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1722
+Dec 23, 2020 12:56:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1728
+2020.12.23 12:56:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:57:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:58:41 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:59:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 12:59:27 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:00:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.23 13:00:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:00:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:02:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 912, count -31, length 2689
+2020.12.23 13:02:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:02:51 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:08:15 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:08:54 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:09:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:15:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1818
+Dec 23, 2020 1:15:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1819
+Dec 23, 2020 1:15:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1820
+Dec 23, 2020 1:15:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1826
+Dec 23, 2020 1:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1842
+Dec 23, 2020 1:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1846
+Dec 23, 2020 1:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1877
+Dec 23, 2020 1:16:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1878
+Dec 23, 2020 1:16:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1882
+Dec 23, 2020 1:16:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1886
+Dec 23, 2020 1:16:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1893
+Dec 23, 2020 1:16:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1897
+Dec 23, 2020 1:17:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1901
+Dec 23, 2020 1:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1905
+Dec 23, 2020 1:17:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1909
+Dec 23, 2020 1:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1915
+Dec 23, 2020 1:17:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1916
+Dec 23, 2020 1:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1918
+Dec 23, 2020 1:17:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1920
+2020.12.23 13:17:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:18:07 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:19:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:20:05 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:21:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:22:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1960
+2020.12.23 13:23:45 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:24:46 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:25:43 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:26:44 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:27:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1994
+2020.12.23 13:27:04 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:27:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2008
+Dec 23, 2020 1:27:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2009
+Dec 23, 2020 1:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2010
+2020.12.23 13:27:47 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:28:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:29:00 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:29:09 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 23, 2020 1:29:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2037
+2020.12.23 13:29:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:29:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:30:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.23 13:30:25 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:30:50 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:32:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2058
+2020.12.23 13:32:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:32:26 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:32:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:33:50 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:35:20 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:35:33 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:35:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.23 13:35:49 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:35:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:36:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:39:21 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:39:39 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:40:10 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:42:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 23, 2020 1:42:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [1523:1334]
+java.lang.AssertionError: assertion failed: bad position: [1523:1334]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.copyRange(Position.scala:218)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:133)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:133)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:372)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+2020.12.23 13:42:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:43:12 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.23 13:43:14 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:44:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2138
+Dec 23, 2020 1:44:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2142
+Dec 23, 2020 1:44:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2143
+Dec 23, 2020 1:46:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2147
+Dec 23, 2020 1:47:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2173
+Dec 23, 2020 1:48:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2179
+Dec 23, 2020 1:48:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 23, 2020 1:48:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed: bad position: [1523:1334]
+java.lang.AssertionError: assertion failed: bad position: [1523:1334]
+	at scala.reflect.internal.util.Position$.validate(Position.scala:41)
+	at scala.reflect.internal.util.Position$.range(Position.scala:58)
+	at scala.reflect.internal.util.InternalPositionImpl.copyRange(Position.scala:218)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart(Position.scala:133)
+	at scala.reflect.internal.util.InternalPositionImpl.withStart$(Position.scala:133)
+	at scala.reflect.internal.util.Position.withStart(Position.scala:19)
+	at scala.meta.internal.pc.CompletionProvider.editRange$lzycompute$1(CompletionProvider.scala:364)
+	at scala.meta.internal.pc.CompletionProvider.editRange$2(CompletionProvider.scala:363)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:372)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:468)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Dec 23, 2020 1:48:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2181
+2020.12.23 13:48:28 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:52:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2208
+Dec 23, 2020 1:52:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2215
+2020.12.23 13:52:57 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:53:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:54:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2226
+2020.12.23 13:54:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:54:29 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:55:16 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:55:31 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:56:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:56:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:57:02 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:57:52 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:59:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2270
+2020.12.23 13:59:18 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+Dec 23, 2020 1:59:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2020.12.23 13:59:28 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 13:59:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 14:00:08 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 14:00:34 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 14:00:59 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 14:01:09 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
+2020.12.23 14:01:38 WARN  no build target for: /home/silverest/Coding/adventOfCode2020/day17.scala
